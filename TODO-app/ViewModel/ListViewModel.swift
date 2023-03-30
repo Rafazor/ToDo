@@ -53,7 +53,7 @@ class ListViewModel: ObservableObject {
         items.remove(atOffsets: indexSet)
     }
     
-    func moveItems(from: IndexSet, to: Int) {
+    func moveItem(from: IndexSet, to: Int) {
         items.move(fromOffsets: from, toOffset: to)
     }
 }
